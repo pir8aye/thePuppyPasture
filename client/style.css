@@ -1,0 +1,70 @@
+body {
+	font-family: Tahoma;
+	background-image: url('Green-Pastures-Blue-Sky.jpg');
+	background-size: 1280px 800px;
+
+}
+
+#header {
+	background-color: #fff;
+	width: 102%;
+	height: 120px;
+	margin: -16px 0 0 -14px;
+	position: fixed;
+	box-shadow: 0px 0px 3px 0px;
+	z-index: 1;
+}
+
+#title {
+	font-size: 50px;
+	font-weight: bold;
+	color: green;
+	margin: 100px 0 0 500px;
+	position: relative;
+	text-shadow: 1px 1px 0 #000;
+}
+
+#sub-title {
+	font-size: 20px;
+	font-style: italic;
+	color: green;
+	margin-left: 550px;
+	position: relative;
+}
+
+#sidebar {
+	background-color: rgba(54, 241, 131, 0.98);
+	width: 20%;
+	height: 800px;
+	margin-top: -10px;
+	margin-left: -8px;
+	position: fixed;
+	box-shadow: 0px 0px 5px 0;
+	z-index: 3;
+}
+
+#puppy-list {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#bill {
+	font-size: 18px;
+	margin-left: 30px;
+	font-weight: 200;
+}
+
+#container {
+	min-height: 630px;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0);
+	display: block;
+}
+
+#sub-container {
+	min-height: 630px;
+	width: 1000px;
+	background-color: rgba(255, 255, 0, 0);
+	display: block;
+	margin-left: 250px;
+}
